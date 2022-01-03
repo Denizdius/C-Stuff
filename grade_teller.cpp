@@ -2,35 +2,24 @@
 
 int main() {
 	
+	int grade_count;
+	int i;
 	int grade;
-
-	printf("Im a c programm which tells pass or failure on your exam so tell me what is your grade :\n");
-	scanf("%d", &grade);
-
-	if ( grade >= 60 ) {
-		
-		printf("Passed\n");
-	}
-
-	else {
-		printf("Failed\a");
-	}
+	int grade_a[grade];
 	
-	if ( grade >= 90 ) {
-		printf("Your Grade is A \n");
-	}
 
-	else if (grade >= 80) {
-		printf("Your Grade is B \n");
+	printf("Enter grades");
+	
+	while ((grade_count = getchar()) != EOF){
+		grade_a[grade];
+		
 	}
+		for (i = 0; i < grade; i = 1 + i) {
+			printf("Your array numbers are\n:%d", grade_a[i]);
+		}
 
-	else if (grade >= 70) {
-		printf ("Your Grade is C \n");
-	}
+	
 
-	else if (grade >= 60) {
-		printf("Your Grade is D \n");
-	}
 
 
 

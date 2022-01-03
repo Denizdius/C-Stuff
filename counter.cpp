@@ -12,8 +12,8 @@ int main() {
 
 
 
-	for (counter =1 ; counter < ending; counter ++) {
-		printf("%d\n",2*counter);
+	for (counter =1 ; counter < ending; counter = counter= counter + 2) {
+		printf("%d\n",counter);
 
 	}
 
