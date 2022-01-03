@@ -2,7 +2,7 @@
 
 int main() {
 	//ilk yorum
-printf("Deniz Karabacak\tSuprem Leader\n");	
+printf("Deniz Karabacak\t\nSuprem Leader\n");	
 printf("Supraaaaaaa"); 
 	
 	
